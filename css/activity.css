@@ -1,0 +1,22 @@
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+
+#main-toolbar #home-button {
+  background-image: url(../icons/home-icon.svg);
+}
+
+
+.planets{
+  display: -webkit-inline-box;
+  height: 250px;
+  margin: 30px;
+  border: 5px solid;
+  border-radius: 10px;
+}
+
+#planet-display{
+  width: 0%;
+  height: 0%;
+  overflow: hidden;
+}
