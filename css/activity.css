@@ -10,13 +10,41 @@
 .planets{
   display: -webkit-inline-box;
   height: 250px;
+  width: 245px;
   margin: 30px;
-  border: 5px solid;
-  border-radius: 10px;
+}
+
+#planet-container{
+  height: 0%;
+  width: 0%;
+  overflow: hidden;
+}
+
+.interactive{
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
 }
 
 #planet-display{
-  width: 0%;
-  height: 0%;
+  position: relative;
+  width: 60%;
   overflow: hidden;
+}
+
+#planet-info {
+  overflow: hidden;
+  padding: 20px;
+  width: 40%;
+}
+
+.info{
+  margin-bottom: 20px;
+}
+
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
