@@ -6,6 +6,17 @@
   background-image: url(../icons/home-icon.svg);
 }
 
+#main-toolbar #info-button {
+  background-image: url(../icons/info-icon.svg);
+}
+
+#main-toolbar #rotation-button {
+  background-image: url(../icons/rotation-icon.svg);
+}
+
+#main-toolbar #image-button {
+  background-image: url(../icons/save-image.svg);
+}
 
 .planets{
   display: -webkit-inline-box;
@@ -15,8 +26,8 @@
 }
 
 #planet-container{
-  height: 0%;
-  width: 0%;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -24,6 +35,7 @@
   box-sizing: border-box;
   float: left;
   height: 100%;
+  width: 100%;
 }
 
 #planet-display{
