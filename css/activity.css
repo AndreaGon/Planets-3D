@@ -18,23 +18,29 @@
 #main-toolbar #position-button {
   background-image: url(../icons/compare-icon.svg);
 }
+#main-toolbar #list-button {
+  background-image: url(../icons/observe-icon.svg);
+}
+#main-toolbar #radius-button {
+  background-image: url(../icons/radius.svg);
+}
 
 #fullscreen-button {
-	background-image: url(../icons/view-fullscreen.svg);
+  background-image: url(../icons/view-fullscreen.svg);
 }
 
 #unfullscreen-button {
-	background-image: url(../icons/view-return.svg);
-	border: 0;
-	border-radius: 0px;
-	margin: 1px;
-	width: 45px;
-	height: 45px;
-	top: 0;
-	right: 7%;
-	position: absolute;
-	visibility: hidden;
-	z-index: 5;
+  background-image: url(../icons/view-return.svg);
+  border: 0;
+  border-radius: 0px;
+  margin: 1px;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  right: 7%;
+  position: absolute;
+  visibility: hidden;
+  z-index: 5;
 }
 
 /**Make main canvas black**/
@@ -97,21 +103,21 @@ canvas {
 
 /**Back Button**/
 #back-button {
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-	height: 50px;
-	bottom: 10px;
-	left: 0px;
-	width: 50px;
-	background-color: "#c0c0c0";
-	background-image: url(../icons/go-back-sel.svg);
-	background-position: center center;
-	background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  bottom: 10px;
+  left: 0px;
+  width: 50px;
+  background-color: "#c0c0c0";
+  background-image: url(../icons/go-back-sel.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #back-button:hover  {
-	background-image: url(../icons/go-back.svg);
+  background-image: url(../icons/go-back.svg);
 }
 
 /**Planet Position and Size**/
@@ -119,4 +125,20 @@ canvas {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.planet-new-name {
+  position: absolute;
+  bottom: 210px;
+  z-index: 100;
+  display:block;
+  color: white;
+}
+
+.planet-radius {
+  position: absolute;
+  bottom: 170px;
+  z-index: 100;
+  display:block;
+  color: white;
 }
