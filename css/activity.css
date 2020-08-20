@@ -21,9 +21,14 @@
 #main-toolbar #list-button {
   background-image: url(../icons/observe-icon.svg);
 }
+<<<<<<< HEAD
 
 #main-toolbar #help-button {
   background-image: url(../icons/help.svg);
+=======
+#main-toolbar #radius-button {
+  background-image: url(../icons/radius.svg);
+>>>>>>> 1ca4eebfb3bac01d42a0df2d40de9aa1b1718d12
 }
 
 #fullscreen-button {
@@ -44,6 +49,7 @@
   z-index: 5;
 }
 
+<<<<<<< HEAD
 /**Tutorial**/
 .tutorial-title {
 	background-color: #808080 !important;
@@ -173,16 +179,24 @@
 	border: 2px solid #808080;
 }
 
+=======
+>>>>>>> 1ca4eebfb3bac01d42a0df2d40de9aa1b1718d12
 /**Make main canvas black**/
 #canvas{
   background-color: black;
 }
 
 /**Planet List on Homepage**/
+<<<<<<< HEAD
 
 .planets{
   display: inline-block;
   height: 250px;
+=======
+.planets{
+  display: -webkit-inline-box;
+  height: 270px;
+>>>>>>> 1ca4eebfb3bac01d42a0df2d40de9aa1b1718d12
   width: 240px;
   margin-top: 30px;
   margin-left: 30px;
@@ -216,9 +230,14 @@
 }
 
 #planet-info {
+<<<<<<< HEAD
   overflow-y: auto;
   padding: 20px;
   padding-top: 50px;
+=======
+  overflow: hidden;
+  padding: 20px;
+>>>>>>> 1ca4eebfb3bac01d42a0df2d40de9aa1b1718d12
   width: 40%;
 }
 
@@ -235,12 +254,21 @@ canvas {
 
 /**Back Button**/
 #back-button {
+<<<<<<< HEAD
   position: absolute;
   display: inline-block;
   vertical-align: top;
   height: 50px;
   top: 10px;
   left: 10px;
+=======
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  bottom: 10px;
+  left: 0px;
+>>>>>>> 1ca4eebfb3bac01d42a0df2d40de9aa1b1718d12
   width: 50px;
   background-color: "#c0c0c0";
   background-image: url(../icons/go-back-sel.svg);
@@ -267,13 +295,18 @@ canvas {
   color: white;
 }
 
+<<<<<<< HEAD
 .planet-distance {
+=======
+.planet-radius {
+>>>>>>> 1ca4eebfb3bac01d42a0df2d40de9aa1b1718d12
   position: absolute;
   bottom: 170px;
   z-index: 100;
   display:block;
   color: white;
 }
+<<<<<<< HEAD
 
 .planet-div {
   position: absolute;
@@ -283,3 +316,5 @@ canvas {
   top: 45%;
 
 }
+=======
+>>>>>>> 1ca4eebfb3bac01d42a0df2d40de9aa1b1718d12
